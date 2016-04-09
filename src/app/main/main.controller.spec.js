@@ -1,13 +1,15 @@
-describe('controllers', () => {
-  let vm;
+(function() {
+  'use strict';
 
-  beforeEach(angular.mock.module('appFdr'));
+  describe('controllers', function(){
 
-  beforeEach(inject(($controller) => {
-    vm = $controller('MainController');
-  }));
+    beforeEach(module('appFdr'));
 
-  it('foo', () => {
-    
+    it('should define more than 5 awesome things', inject(function($controller) {
+      var vm = $controller('MainController');
+
+      //expect(angular.isArray(vm.awesomeThings)).toBeTruthy();
+      //expect(vm.awesomeThings.length > 5).toBeTruthy();
+    }));
   });
-});
+})();

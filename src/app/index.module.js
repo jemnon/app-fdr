@@ -1,10 +1,14 @@
-import { config } from './index.config';
-import { routerConfig } from './index.route';
-import { runBlock } from './index.run';
-import { MainController } from './main/main.controller';
+import config from './index.config';
+import routerConfig from './index.route';
+import runBlock from './index.run';
+import MainController from './main/main.controller';
+import ProductsService from '../app/components/products/products.service';
+import ProductDirective from '../app/components/product/product.directive';
 
-angular.module('appFdr', ['ngCookies', 'ngSanitize', 'ngRoute'])
+angular.module('appFdr', ['ngRoute'])
   .config(config)
   .config(routerConfig)
   .run(runBlock)
-  .controller('MainController', MainController);
+  .service('productsService', ProductsService)
+  .controller('MainController', MainController)
+  .directive('appFdrProduct', () => new ProductDirective);

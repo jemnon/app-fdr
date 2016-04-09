@@ -1,4 +1,6 @@
-export function runBlock ($log) {
+function runBlock ($log) {
   'ngInject';
   $log.debug('runBlock end');
 }
+
+export default runBlock;

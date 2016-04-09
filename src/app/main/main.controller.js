@@ -1,11 +1,24 @@
-export class MainController {
-  constructor () {
+class MainController {
+  constructor ($log, productsService) {
     'ngInject';
 
-    this.activate();
+    this.$log            = $log;
+
+    this.productsService = productsService;
+    this.products        = null;
+
+    this.init();
   }
 
-  activate() {
-
+  init() {
+    this.productsService.getProducts()
+      .then((response) => {
+        this.products = response.data.documents;
+      })
+      .catch((error) => {
+        this.$log.error('XHR Failed');
+      });
   }
 }
+
+export default MainController;

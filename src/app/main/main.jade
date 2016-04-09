@@ -1,10 +1,12 @@
-html
-  body
-    .container
-      .row
-        .large-12.large-text-center.columns
-          .panel
-            h1 'Allo, 'Allo!
-            img(src='assets/images/yeoman.png', alt="I'm Yeoman")
-            br
-            p Always a pleasure scaffolding your apps.
+.container
+  .row
+    app-fdr-product(
+      class=[
+        'large-3',
+        'columns'
+      ]
+      ng-repeat="product in main.products track by $index"
+      app-fdr-product-brand="product.brand"
+      app-fdr-product-name="product.name"
+      app-fdr-product-img="product.images[1]"
+    )
