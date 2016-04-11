@@ -6,8 +6,8 @@ class ProductDirective {
       replace: true,
       templateUrl: 'app/components/product/product.html',
       scope: {
-        brand: '=appFdrProductBrand',
-        name: '=appFdrProductName',
+        series: '=appFdrProductSeries',
+        type: '=appFdrProductType',
         img: '=appFdrProductImg'
       },
       link: function(scope, element, attrs) {

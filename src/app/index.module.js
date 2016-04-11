@@ -4,6 +4,7 @@ import runBlock from './index.run';
 import MainController from './main/main.controller';
 import ProductsService from '../app/components/products/products.service';
 import ProductDirective from '../app/components/product/product.directive';
+import SideBarDirective from '../app/components/sideBar/sideBar.directive';
 
 angular.module('appFdr', ['ngRoute'])
   .config(config)
@@ -11,4 +12,5 @@ angular.module('appFdr', ['ngRoute'])
   .run(runBlock)
   .service('productsService', ProductsService)
   .controller('MainController', MainController)
-  .directive('appFdrProduct', () => new ProductDirective);
+  .directive('appFdrProduct', () => new ProductDirective)
+  .directive('appFdrSideBar', () => new SideBarDirective);
