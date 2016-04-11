@@ -8,7 +8,7 @@
           'large-3',
           'columns'
         ]
-        ng-repeat="product in main.products | filter: product.seriesId | filter: product.prodTypeId track by $index"
+        ng-repeat="product in main.products track by $index"
         app-fdr-product-series="product.series"
         app-fdr-product-type="product.productType"
         app-fdr-product-img="product.images[1]"
