@@ -8,6 +8,10 @@ class ProductsService {
   getProducts() {
     return this.$http.get('assets/data/products.json'); 
   }
+
+  getProduct(id) {
+    return this.$http.get('assets/data/products/' + id + '.json');
+  }
 }
 
 export default ProductsService;

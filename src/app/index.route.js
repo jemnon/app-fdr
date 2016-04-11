@@ -6,6 +6,11 @@ function routerConfig ($routeProvider) {
       controller: 'MainController',
       controllerAs: 'main'
     })
+    .when('/product-detail/:id', {
+      templateUrl: 'app/productDetail/productDetail.html',
+      controller: 'ProductDetailController',
+      controllerAs: 'productDetail'
+    })
     .otherwise({
       redirectTo: '/'
     });

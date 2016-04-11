@@ -1,6 +1,7 @@
 {
 	"total": 33,
 	"documents": [{
+		"id": 45445243989801,
 		"docType": "product",
 		"salesStatus_US_CONSUMER": "Active",
 		"skuDisplayName_en": ["Standard Jaguar® Bass, Rosewood Fingerboard, Black", "Standard Jaguar® Bass, Rosewood Fingerboard, Ghost Silver", "Standard Jaguar® Bass, Rosewood Fingerboard, Olympic White"],
@@ -25,6 +26,7 @@
 		"seriesId": "standard",
 		"brandDispRk": 1
 	}, {
+		"id": 45445243989802,
 		"docType": "product",
 		"salesStatus_US_CONSUMER": "Active",
 		"skuDisplayName_en": ["Troy Sanders Jaguar® Bass, Rosewood Fingerboard, Silverburst"],
@@ -49,6 +51,7 @@
 		"seriesId": "artist",
 		"brandDispRk": 1
 	}, {
+		"id": 45445243989803,
 		"docType": "product",
 		"salesStatus_US_CONSUMER": "Active",
 		"skuDisplayName_en": ["American Vintage '62 Jaguar® Control Mounting Bracket"],
@@ -72,6 +75,7 @@
 		"seriesId": "mounting_hardware",
 		"brandDispRk": 1
 	}, {
+		"id": 45445243989804,
 		"docType": "product",
 		"salesStatus_US_CONSUMER": "Active",
 		"skuDisplayName_en": ["American Vintage '62 Jaguar® Mute Assembly Plunger"],
@@ -95,6 +99,7 @@
 		"seriesId": "miscellaneous_parts",
 		"brandDispRk": 1
 	}, {
+		"id": 45445243989805,
 		"docType": "product",
 		"salesStatus_US_CONSUMER": "Active",
 		"skuDisplayName_en": ["Jaguar® Preset Control Plate, Chrome"],
@@ -118,6 +123,7 @@
 		"seriesId": "plates_covers",
 		"brandDispRk": 1
 	}, {
+		"id": 45445243989806,
 		"docType": "product",
 		"salesStatus_US_CONSUMER": "Active",
 		"skuDisplayName_en": ["American Vintage '62 Jaguar® Mute Plate"],
@@ -141,6 +147,7 @@
 		"seriesId": "miscellaneous_parts",
 		"brandDispRk": 1
 	}, {
+		"id": 45445243989807,
 		"docType": "product",
 		"salesStatus_US_CONSUMER": "Active",
 		"skuDisplayName_en": ["Johnny Marr Jaguar®, Rosewood Fingerboard, Olympic White", "Johnny Marr Jaguar®, Rosewood Fingerboard, Sherwood Green Metallic", "Johnny Marr Jaguar®, Rosewood Fingerboard, Metallic KO"],
@@ -166,6 +173,7 @@
 		"seriesId": "artist",
 		"brandDispRk": 1
 	}, {
+		"id": 45445243989808,
 		"docType": "product",
 		"salesStatus_US_CONSUMER": "Active",
 		"skuDisplayName_en": ["Vintage Modified Jaguar® Bass Special, Rosewood Fingerboard, Crimson Red Transparent", "Vintage Modified Jaguar® Bass Special, Rosewood Fingerboard, Black", "Vintage Modified Jaguar® Bass Special, Rosewood Fingerboard, 3-Color Sunburst"],
@@ -190,6 +198,7 @@
 		"seriesId": "vintage_modified_models",
 		"brandDispRk": 3
 	}, {
+		"id": 45445243989809,
 		"docType": "product",
 		"salesStatus_US_CONSUMER": "Active",
 		"skuDisplayName_en": ["Vintage Modified Jaguar® Bass Special SS, Rosewood Fingerboard, Silver", "Vintage Modified Jaguar® Bass Special SS, Rosewood Fingerboard, Black", "Vintage Modified Jaguar® Bass Special SS, Rosewood Fingerboard, Candy Apple Red"],
@@ -214,6 +223,7 @@
 		"seriesId": "vintage_modified_models",
 		"brandDispRk": 3
 	}, {
+		"id": 45445243989810,
 		"docType": "product",
 		"salesStatus_US_CONSUMER": "Active",
 		"skuDisplayName_en": ["Classic Player Jaguar® Special, Rosewood Fingerboard, Candy Apple Red", "Classic Player Jaguar® Special, Rosewood Fingerboard, 3-Color Sunburst"],
@@ -239,6 +249,7 @@
 		"seriesId": "classic",
 		"brandDispRk": 1
 	}, {
+		"id": 45445243989811,
 		"docType": "product",
 		"salesStatus_US_CONSUMER": "Active",
 		"skuDisplayName_en": ["Kurt Cobain Jaguar®, Rosewood Fingerboard, 3-Color Sunburst"],
@@ -264,6 +275,7 @@
 		"seriesId": "artist",
 		"brandDispRk": 1
 	}, {
+		"id": 45445243989812,
 		"docType": "product",
 		"salesStatus_US_CONSUMER": "Active",
 		"skuDisplayName_en": ["American Standard Jaguar® Bass, Rosewood Fingerboard, 3-Color Sunburst", "American Standard Jaguar® Bass, Rosewood Fingerboard, Mystic Red", "American Standard Jaguar® Bass, Rosewood Fingerboard, Black", "American Standard Jaguar® Bass, Rosewood Fingerboard, Olympic White"],
@@ -289,6 +301,7 @@
 		"seriesId": "american_standard",
 		"brandDispRk": 1
 	}, {
+		"id": 45445243989813,
 		"docType": "product",
 		"salesStatus_US_CONSUMER": "Active",
 		"skuDisplayName_en": ["Pure Vintage 1965 Jaguar® Skirted Knobs, (2), Black"],
@@ -312,6 +325,7 @@
 		"seriesId": "knobs_kits_pickup_covers",
 		"brandDispRk": 1
 	}, {
+		"id": 45445243989814,
 		"docType": "product",
 		"salesStatus_US_CONSUMER": "Active",
 		"skuDisplayName_en": ["Road Worn® '60s Jaguar®, Rosewood Fingerboard, Candy Apple Red"],
@@ -337,6 +351,7 @@
 		"seriesId": "classic",
 		"brandDispRk": 1
 	}, {
+		"id": 45445243989815,
 		"docType": "product",
 		"salesStatus_US_CONSUMER": "Active",
 		"skuDisplayName_en": ["Pure Vintage Pickguard, '65 Jaguar®, 10-Hole Mount, Eggshell, 3-Ply"],
@@ -360,6 +375,7 @@
 		"seriesId": "pickguards_backplates",
 		"brandDispRk": 1
 	}, {
+		"id": 45445243989816,
 		"docType": "product",
 		"salesStatus_US_CONSUMER": "Active",
 		"skuDisplayName_en": ["60s Jaguar® Lacquer, Rosewood Fingerboard, Fiesta Red"],
@@ -385,6 +401,7 @@
 		"seriesId": "classic",
 		"brandDispRk": 1
 	}, {
+		"id": 45445243989817,
 		"docType": "product",
 		"salesStatus_US_CONSUMER": "Active",
 		"skuDisplayName_en": ["Vintage Modified Jaguar®, Rosewood Fingerboard, Surf Green", "Vintage Modified Jaguar®, Rosewood Fingerboard, 3-Color Sunburst", "Vintage Modified Jaguar®, Rosewood Fingerboard, Olympic White", "Vintage Modified Jaguar®, Rosewood Fingerboard, Candy Apple Red"],
@@ -410,6 +427,7 @@
 		"seriesId": "vintage_modified_models",
 		"brandDispRk": 3
 	}, {
+		"id": 45445243989818,
 		"docType": "product",
 		"salesStatus_US_CONSUMER": "Active",
 		"skuDisplayName_en": ["Jaguar® Mute System Compression Spring, .240ODx1.00"],
@@ -433,6 +451,7 @@
 		"seriesId": "miscellaneous_parts",
 		"brandDispRk": 1
 	}, {
+		"id": 45445243989819,
 		"docType": "product",
 		"salesStatus_US_CONSUMER": "Active",
 		"skuDisplayName_en": ["American Vintage Jaguar® Mute System Foam Strip, 3/8 x 1/4 (2)"],
@@ -456,6 +475,7 @@
 		"seriesId": "miscellaneous_parts",
 		"brandDispRk": 1
 	}, {
+		"id": 45445243989820,
 		"docType": "product",
 		"salesStatus_US_CONSUMER": "Active",
 		"skuDisplayName_en": ["Classic Player Jaguar® Special HH, Rosewood Fingerboard, 3-Color Sunburst", "Classic Player Jaguar® Special HH, Rosewood Fingerboard, Olympic White"],

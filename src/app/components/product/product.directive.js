@@ -8,7 +8,8 @@ class ProductDirective {
       scope: {
         series: '=appFdrProductSeries',
         type: '=appFdrProductType',
-        img: '=appFdrProductImg'
+        img: '=appFdrProductImg',
+        id: '=appFdrProductId'
       },
       link: function(scope, element, attrs) {
 
