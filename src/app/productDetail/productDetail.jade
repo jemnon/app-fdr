@@ -1,5 +1,3 @@
-h3 Series: {{ productDetail.product.series }}
-h4 Type: {{ productDetail.product.type }}
-img.thumbnail(
-  src="{{ productDetail.product.img }}"
-)  
+h3 {{ productDetail.product.productDisplayName_en }}
+// use 2nd image in array since first item is a zoom
+img.thumbnail(src="{{ productDetail.product.images[1] }}")  

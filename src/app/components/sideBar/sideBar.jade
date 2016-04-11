@@ -1,10 +1,11 @@
-div
-  h5 Products
-
-  ul
-    li(ng-repeat="item in main.productFilterNames")
+.sideBar
+  ul.sideBar__list
+    li(
+      class="sideBar__items"
+      ng-repeat="item in main.productFilterNames"
+    )
       input(
         type="checkbox",
         ng-model="main.filterProducts[item.id]"
       )
-      label {{ ::item.label }}
+      label.sideBar__label {{ ::item.label }}

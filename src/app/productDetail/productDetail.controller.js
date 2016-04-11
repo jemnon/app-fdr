@@ -7,11 +7,7 @@ class ProductDetailController {
 
     this.productsService = productsService;
 
-    this.product = {
-      series: null,
-      type: null,
-      img: null
-    }
+    this.product         = null;
 
     this.init();
   }
@@ -19,9 +15,7 @@ class ProductDetailController {
   init() {
     this.productsService.getProduct(this.id)
       .then((response) => {
-        this.product.series = response.data.series;
-        this.product.type = response.data.productType;
-        this.product.img = response.data.images[1];
+        this.product = response.data;
       })
       .catch((error) => {
         this.$log.error('XHR Failed');

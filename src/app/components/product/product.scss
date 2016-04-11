@@ -1,0 +1,27 @@
+.product {}
+
+.product__link {
+  display: block;
+}
+
+.product__imgContainer {
+  display: flex;
+  height: 150px;
+  overflow: hidden;
+  background-color: #fff;
+}
+
+.product__img {
+  width: 100%;
+}
+
+.product__name {
+  padding: 6px;
+  font-size: 12px;
+}
+
+.product__name--truncate {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
