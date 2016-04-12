@@ -2,7 +2,6 @@
 
 ## Installation
 
-=======
 This guide assumes a fresh install.
 
 Node
@@ -26,7 +25,7 @@ $ npm install -g gulp
 Yeoman es6 Angular Generator
 (Should install es6 deps, ie: Babel)
 ```
-$ npm install -g generator-es6-angular
+$ npm install -g generator-angular-es6-components
 ```
 
 Sass
