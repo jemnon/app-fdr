@@ -1,0 +1,20 @@
+.row
+  .large-7.columns
+    .productDetail
+      h4.productDetail__heading {{ productDetail.product.productDisplayName_en }}
+      hr
+      // use 2nd image in array since first item is a zoom
+      img.productDetail__img(src="{{ productDetail.product.images[1] }}")  
+  .large-5.columns
+    h4.productDetail__heading Details
+    hr
+    ul.productDetail__list
+      li
+        p Brand
+        span {{ productDetail.product.brand }}
+      li 
+        p Type
+        span {{ productDetail.product.productType }}
+      li 
+        p Series
+        span {{ productDetail.product.series }}

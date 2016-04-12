@@ -1,0 +1,34 @@
+.productDetail {
+  margin-bottom: 24px;
+  @include breakpoint(large) {
+    min-height: 600px;
+  }
+}
+
+.productDetail__heading {
+  margin: 0;
+}
+
+.productDetail__img {
+  border: 1px solid #ccc;
+  width: 100%;
+  @include breakpoint(medium) {
+    width: auto;
+  }
+}
+
+.productDetail__list {
+  margin-bottom: 24px;
+  @include breakpoint(large) {
+    margin-bottom: 0;
+  }
+
+  li {
+    margin-bottom: 6px;
+  }
+
+  p {
+    margin-bottom: 0;
+    font-weight: bold;
+  }
+}

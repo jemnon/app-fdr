@@ -29,6 +29,12 @@ $body-font-color: #000;
 @import 'components/sideBar/sideBar';
 @import 'components/header/header';
 @import 'components/footer/footer';
+@import 'components/productDetail/productDetail';
+
+ul {
+  margin: 0;
+  list-style: none;
+}
 
 /**
  *  Do not remove the comments below. It's the markers used by gulp-inject to inject

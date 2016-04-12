@@ -7,7 +7,7 @@ function routerConfig ($routeProvider) {
       controllerAs: 'main'
     })
     .when('/product-detail/:id', {
-      templateUrl: 'app/productDetail/productDetail.html',
+      templateUrl: 'app/components/productDetail/productDetail.html',
       controller: 'ProductDetailController',
       controllerAs: 'productDetail'
     })

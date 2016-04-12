@@ -18,7 +18,9 @@
     <!-- endbuild-->
   </head>
   <body>
-    <div ng-view=""></div>
+    <app-fdr-header></app-fdr-header>
+    <div class="container" ng-view=""></div>
+    <app-fdr-footer></app-fdr-footer>
     <!-- build:js(src) scripts/vendor.js-->
     <!-- bower:js-->
     <!-- run `gulp inject` to automatically populate bower script dependencies-->
