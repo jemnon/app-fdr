@@ -46,4 +46,6 @@ $ bower i
 ```
 
 ## Run
+```
 $ gulp serve
+```
