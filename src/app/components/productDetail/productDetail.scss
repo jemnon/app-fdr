@@ -1,8 +1,5 @@
 .productDetail {
   margin-bottom: 24px;
-  @include breakpoint(large) {
-    min-height: 600px;
-  }
 }
 
 .productDetail__heading {

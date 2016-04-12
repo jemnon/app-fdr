@@ -36,6 +36,12 @@ ul {
   list-style: none;
 }
 
+.container {
+  @include breakpoint(large) {
+    min-height: 600px;
+  }
+}
+
 /**
  *  Do not remove the comments below. It's the markers used by gulp-inject to inject
  *  all your sass files automatically

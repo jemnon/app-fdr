@@ -2,11 +2,11 @@
   ul.sideBar__list
     li(
       class="sideBar__items"
-      ng-repeat="item in main.productFilterNames"
+      ng-repeat="item in main.productFiltersLabels"
     )
       label.sideBar__label
         input(
           type="checkbox",
-          ng-model="main.filterProducts[item.id]"
+          ng-model="main.productFilters[item.id]"
         )
         | {{ ::item.label }}

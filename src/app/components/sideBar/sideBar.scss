@@ -1,5 +1,9 @@
-.sideBar {}
+.sideBar {
+  margin-bottom: 24px;
+}
 
 .sideBar__list {}
 
-.sideBar__label {}
+.sideBar__label {
+  text-transform: capitalize;
+}

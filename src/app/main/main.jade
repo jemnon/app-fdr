@@ -9,8 +9,14 @@ main(role="main")
             'large-3',
             'columns'
           ]
+          ng-class="{\
+            'end': !(($index + 1) % 4)\
+          }"
           ng-repeat="product in main.products track by $index"
           app-fdr-product-name="product.productDisplayName_en"
           app-fdr-product-img="product.images[1]"
           app-fdr-product-id="product.id"
-          )
+          app-fdr-product-series="product.series"
+          app-fdr-product-type="product.productType"
+          ng-show="main.productFilters[product.seriesId] || main.productFilters[product.prodTypeId]"
+        )

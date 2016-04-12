@@ -7,32 +7,40 @@ class MainController {
     this.productsService = productsService;
     this.products        = null;
 
-    this.filterProducts = {
+    this.productFilters = {
       'guitars': true,
-      'american_standard': true,
-      'guitar_bass_parts': true,
-      'knobs_kits_pickup_covers': true,
-      'classic': true,
-      'pickguards_backplates': true,
+      'guitar_and_bass_parts': true,
+      'standard': true,
+      'artist': true,
+      'mounting_hardware': true,
+      'miscellaneous_parts': true,
+      'plates_covers': true,
       'vintage_modified_models': true,
-      'miscellaneous_parts': true
+      'classic': true,
+      'american_standard': true,
+      'knobs_kits_pickup_covers': true,
+      'pickguards_backplates': true
     };
 
-    this.productFilterNames = [
-      { label: 'Guitars', id: 'guitars' },
-      { label: 'American Standard', id: 'american_standard' },
-      { label: 'Guitar and Bass Parts', id: 'guitar_bass_parts' },
-      { label: 'Knobs Kits Pickup Covers', id: 'knobs_kits_pickup_covers' },
-      { label: 'Classic', id: 'classic' },
-      { label: 'Pickguards Backplates', id: 'pickguards_backplates' },
-      { label: 'Vintage Modified Models', id: 'vintage_modified_models' },
-      { label: 'Miscellaneous Parts', id: 'miscellaneous_parts' }
+    this.productFiltersLabels = [
+      { id:'guitars', label: 'guitars' },
+      { id:'guitar_and_bass_parts', label: 'guitar and bass parts' },
+      { id:'standard', label: 'standard' },
+      { id:'artist', label: 'artist' },
+      { id:'mounting_hardware', label: 'mounting hardware' },
+      { id:'miscellaneous_parts', label: 'miscellaneous parts' },
+      { id:'plates_covers', label: 'plates covers' },
+      { id:'vintage_modified_models', label: 'vintage modified models' },
+      { id:'classic', label: 'classic' },
+      { id:'american_standard', label: 'american standard' },
+      { id:'knobs_kits_pickup_covers', label: 'knobs kits pickup covers' },
+      { id:'pickguards_backplates', label: 'pickguards backplates' }
     ];
 
-    this.init();
+    this.activate();
   }
 
-  init() {
+  activate() {
     this.productsService.getProducts()
       .then((response) => {
         this.products = response.data.documents;

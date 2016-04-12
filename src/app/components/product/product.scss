@@ -13,6 +13,7 @@ $product-small-spacing: 6px;
 
 .product__imgContainer {
   height: 150px;
+  margin-bottom: $product-small-spacing;
   overflow: hidden;
   border: 1px solid #ccc;
   background-color: rgba(#000, 0.3);
@@ -23,7 +24,6 @@ $product-small-spacing: 6px;
 }
 
 .product__name {
-  padding-top: $product-small-spacing;
   font-size: $product-font-size;
   color: #000;
 }

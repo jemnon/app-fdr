@@ -9,10 +9,10 @@ class ProductDetailController {
 
     this.product         = null;
 
-    this.init();
+    this.activate();
   }
 
-  init() {
+  activate() {
     this.productsService.getProduct(this.id)
       .then((response) => {
         this.product = response.data;
