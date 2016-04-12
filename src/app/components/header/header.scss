@@ -1,0 +1,32 @@
+.header {
+  display: flex;
+  align-items: center;
+  height: 90px;
+  margin-bottom: 48px;
+  background-color: #000;
+}
+
+.header__menu {
+  padding: 24px;
+}
+
+.header__menuItem {
+  margin-right: 24px;
+  font-size: 16px;
+  font-weight: bold;
+  text-transform: uppercase;
+  &:last-child {
+    margin-right: 0;
+  }
+}
+
+.header__logo {
+  width: 90px;
+  height: 90px;
+  background-color: #d52b1e;
+  font-size: 20px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

@@ -1,10 +1,11 @@
 .container
+  app-fdr-header
   main(role="main")
     .row
       .large-3.columns
         app-fdr-side-bar
       .large-9.columns
-        .row.collapse
+        .row
           app-fdr-product(
             class=[
               'large-3',
@@ -15,3 +16,4 @@
             app-fdr-product-img="product.images[1]"
             app-fdr-product-id="product.id"
           )
+  //app-fdr-footer

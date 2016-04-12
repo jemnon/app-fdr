@@ -1,14 +1,21 @@
-.product {}
+$product-font-size: 12px;
+$product-large-spacing: 24px;
+$product-medium-spacing: 12px;
+$product-small-spacing: 6px;
+
+.product {
+  margin-bottom: $product-large-spacing;
+}
 
 .product__link {
   display: block;
 }
 
 .product__imgContainer {
-  display: flex;
   height: 150px;
   overflow: hidden;
-  background-color: #fff;
+  border: 1px solid #ccc;
+  background-color: rgba(#000, 0.3);
 }
 
 .product__img {
@@ -16,8 +23,9 @@
 }
 
 .product__name {
-  padding: 6px;
-  font-size: 12px;
+  padding-top: $product-small-spacing;
+  font-size: $product-font-size;
+  color: #000;
 }
 
 .product__name--truncate {

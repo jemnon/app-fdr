@@ -4,8 +4,9 @@
       class="sideBar__items"
       ng-repeat="item in main.productFilterNames"
     )
-      input(
-        type="checkbox",
-        ng-model="main.filterProducts[item.id]"
-      )
-      label.sideBar__label {{ ::item.label }}
+      label.sideBar__label
+        input(
+          type="checkbox",
+          ng-model="main.filterProducts[item.id]"
+        )
+        | {{ ::item.label }}
