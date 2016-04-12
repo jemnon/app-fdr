@@ -3,7 +3,7 @@
     ul.breadcrumbs
       li
         a(href="#/") Home
-      li.
+      li.truncate.
         {{ productDetail.product.productDisplayName_en }}
 .row
   .large-7.columns
@@ -11,7 +11,10 @@
       h4.productDetail__heading {{ productDetail.product.productDisplayName_en }}
       hr
       // use 2nd image in array since first item is a zoom
-      img.productDetail__img(src="{{ productDetail.product.images[1] }}")  
+      img.productDetail__img(
+        ng-src="{{ productDetail.product.images[1] }}"
+        app-fdr-product-img="data:image/svg+xml;base64,CiAgPHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHhtbG5zOnhsaW5rPSdodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rJyB3aWR0aD0nNicgaGVpZ2h0PSc5LjYnIHZpZXdCb3g9JzAgMCAxMCAxNic+CiAgICA8ZyBpZD0nYyc+CiAgICAgIDxwYXRoIGZpbGw9JyNlYWVhZWEnIGQ9J00wIDBsNSAzdjVsLTUgLTN6Jy8+CiAgCQk8cGF0aCBmaWxsPScjZjNmM2YzJyBkPSdNMTAgMGwtNSAzdjVsNSAtMycvPgogIAk8L2c+CiAgCTx1c2UgeD0nNScgeT0nOCcgeGxpbms6aHJlZj0nI2MnIC8+CiAgCTx1c2UgeD0nLTUnIHk9JzgnIHhsaW5rOmhyZWY9JyNjJyAvPgogIDwvc3ZnPgogIA=="
+      )  
   .large-5.columns
     h4.productDetail__heading Details
     hr

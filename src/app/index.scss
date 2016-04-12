@@ -53,6 +53,15 @@ ul {
   text-overflow: ellipsis;
 }
 
+.breadcrumbs {
+  li.truncate {
+    max-width: 200px;
+    @include breakpoint(medium) {
+      max-width: none;
+    }
+  }
+}
+
 /**
  *  Do not remove the comments below. It's the markers used by gulp-inject to inject
  *  all your sass files automatically

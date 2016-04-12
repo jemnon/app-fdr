@@ -8,6 +8,7 @@ import ProductDirective from '../app/components/product/product.directive';
 import SideBarDirective from '../app/components/sideBar/sideBar.directive';
 import HeaderDirective from '../app/components/header/header.directive';
 import FooterDirective from '../app/components/footer/footer.directive';
+import ProductImgDirective from '../app/components/productImg/productImg.directive';
 
 angular.module('appFdr', ['ngRoute'])
   .config(config)
@@ -17,6 +18,7 @@ angular.module('appFdr', ['ngRoute'])
   .controller('MainController', MainController)
   .controller('ProductDetailController', ProductDetailController)
   .directive('appFdrProduct', () => new ProductDirective)
+  .directive('appFdrProductImg', () => new ProductImgDirective)
   .directive('appFdrSideBar', () => new SideBarDirective)
   .directive('appFdrHeader', () => new HeaderDirective)
   .directive('appFdrFooter', () => new FooterDirective);

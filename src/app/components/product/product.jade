@@ -4,7 +4,10 @@
     href="#/product-detail/{{ id }}"
   )
     .product__imgContainer
-      img.product__img(src="{{ img }}")
+      img.product__img(
+        ng-src="{{ img }}"
+        app-fdr-product-img="data:image/svg+xml;base64,CiAgPHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHhtbG5zOnhsaW5rPSdodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rJyB3aWR0aD0nNicgaGVpZ2h0PSc5LjYnIHZpZXdCb3g9JzAgMCAxMCAxNic+CiAgICA8ZyBpZD0nYyc+CiAgICAgIDxwYXRoIGZpbGw9JyNlYWVhZWEnIGQ9J00wIDBsNSAzdjVsLTUgLTN6Jy8+CiAgCQk8cGF0aCBmaWxsPScjZjNmM2YzJyBkPSdNMTAgMGwtNSAzdjVsNSAtMycvPgogIAk8L2c+CiAgCTx1c2UgeD0nNScgeT0nOCcgeGxpbms6aHJlZj0nI2MnIC8+CiAgCTx1c2UgeD0nLTUnIHk9JzgnIHhsaW5rOmhyZWY9JyNjJyAvPgogIDwvc3ZnPgogIA=="
+      )
     .product__name.truncate
       #[strong Name:] {{ name }}
     .product__name.truncate

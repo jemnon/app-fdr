@@ -29,6 +29,9 @@ $product-small-spacing: 6px;
 
 .product__img {
   width: 100%;
+  &.hide {
+    display: none;
+  }
 }
 
 .product__name {

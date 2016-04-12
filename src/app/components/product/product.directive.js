@@ -11,9 +11,6 @@ class ProductDirective {
         name: '=appFdrProductName',
         img: '=appFdrProductImg',
         id: '=appFdrProductId'
-      },
-      link: function(scope, element, attrs) {
-
       }
     };
 
