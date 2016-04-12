@@ -5,6 +5,7 @@
 $primary-color: #d52b1e;
 $anchor-color: #fff;
 $body-font-color: #000;
+$breadcrumbs-item-color: $primary-color;
 
 /**
  *  The import of foundation is made manually because there is still no links of the
@@ -17,6 +18,10 @@ $body-font-color: #000;
 @include foundation-typography;
 @include foundation-button;
 @include foundation-forms;
+@include foundation-menu;
+@include foundation-menu-icon;
+@include foundation-visibility-classes;
+@include foundation-breadcrumbs;
 
 /**
  *  Do not remove the comments below. It's the markers used by wiredep to inject
@@ -40,6 +45,12 @@ ul {
   @include breakpoint(large) {
     min-height: 600px;
   }
+}
+
+.truncate {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 /**

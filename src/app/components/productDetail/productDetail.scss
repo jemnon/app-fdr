@@ -9,8 +9,14 @@
 .productDetail__img {
   border: 1px solid #ccc;
   width: 100%;
+  min-height: 200px;
+  max-width: 350px;
+  margin: 0 auto;
+  display: block;
   @include breakpoint(medium) {
     width: auto;
+    margin: 0;
+    max-width: none;
   }
 }
 

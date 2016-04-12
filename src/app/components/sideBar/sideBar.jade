@@ -1,10 +1,20 @@
 .sideBar
-  ul.sideBar__list
+  ul.sideBar__list(
+    class=[
+      "row",
+      "small-up-2",
+      "medium-up-4",
+      "large-up-1"
+    ]
+  )
     li(
-      class="sideBar__items"
+      class=[
+        "column",
+        "sideBar__items"
+      ]
       ng-repeat="item in main.productFiltersLabels"
     )
-      label.sideBar__label
+      label.sideBar__label.truncate
         input(
           type="checkbox",
           ng-model="main.productFilters[item.id]"

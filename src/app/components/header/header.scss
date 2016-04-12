@@ -1,17 +1,24 @@
+$header-size-large: 90px;
+$header-size-small: 60px;
+$header-spacing: 24px;
+
 .header {
   display: flex;
   align-items: center;
-  height: 90px;
+  height: $header-size-small;
   margin-bottom: 24px;
   background-color: #000;
+  @include breakpoint(large) {
+    height: $header-size-large;
+  }
 }
 
 .header__menu {
-  padding: 24px;
+  padding-left: $header-spacing;
 }
 
 .header__menuItem {
-  margin-right: 24px;
+  margin-right: $header-spacing;
   font-size: 16px;
   font-weight: bold;
   text-transform: uppercase;
@@ -21,12 +28,36 @@
 }
 
 .header__logo {
-  width: 90px;
-  height: 90px;
-  background-color: #d52b1e;
-  font-size: 20px;
-  font-weight: bold;
+  display: flex;
+  flex: 1 0 0;
+  order: 1;
+  justify-content: center;
+  margin-left: -$header-size-small;
+  @include breakpoint(large) {
+    flex: 0;
+    order: 0;
+    margin-left: 0;
+  }
+}
+
+.header__logoLink {
   display: flex;
   align-items: center;
   justify-content: center;
+  width: $header-size-small;
+  height: $header-size-small;
+  background-color: #d52b1e;
+  font-size: 20px;
+  font-weight: bold;
+  @include breakpoint(large) {
+    width: $header-size-large;
+    height: $header-size-large;
+  }
+}
+
+.header__menuIcon {
+  order: 0;
+  @include breakpoint(large) {
+    order: 1;
+  }
 }

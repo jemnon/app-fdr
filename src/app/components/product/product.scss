@@ -9,14 +9,22 @@ $product-small-spacing: 6px;
 
 .product__link {
   display: block;
+  max-width: 400px;
+  margin: 0 auto;
 }
 
 .product__imgContainer {
-  height: 150px;
-  margin-bottom: $product-small-spacing;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   overflow: hidden;
+  height: 250px;
+  margin-bottom: $product-small-spacing;
   border: 1px solid #ccc;
   background-color: rgba(#000, 0.3);
+  @include breakpoint(large) {
+    height: 150px;
+  }
 }
 
 .product__img {
@@ -26,10 +34,4 @@ $product-small-spacing: 6px;
 .product__name {
   font-size: $product-font-size;
   color: #000;
-}
-
-.product__name--truncate {
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
 }

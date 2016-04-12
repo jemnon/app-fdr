@@ -4,10 +4,7 @@ class SideBarDirective {
 
     let directive = {
       replace: true,
-      templateUrl: 'app/components/sideBar/sideBar.html',
-      link: function(scope, element, attrs) {
-
-      }
+      templateUrl: 'app/components/sideBar/sideBar.html'
     };
 
     return directive;

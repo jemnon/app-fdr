@@ -9,8 +9,8 @@ class MainController {
 
     this.productFilters = {
       'guitars': true,
-      'guitar_and_bass_parts': true,
       'standard': true,
+      'guitar_and_bass_parts': true,
       'artist': true,
       'mounting_hardware': true,
       'miscellaneous_parts': true,
@@ -24,8 +24,8 @@ class MainController {
 
     this.productFiltersLabels = [
       { id:'guitars', label: 'guitars' },
-      { id:'guitar_and_bass_parts', label: 'guitar and bass parts' },
       { id:'standard', label: 'standard' },
+      { id:'guitar_and_bass_parts', label: 'guitar and bass parts' },
       { id:'artist', label: 'artist' },
       { id:'mounting_hardware', label: 'mounting hardware' },
       { id:'miscellaneous_parts', label: 'miscellaneous parts' },

@@ -1,4 +1,11 @@
 .row
+  .large-12.columns
+    ul.breadcrumbs
+      li
+        a(href="#/") Home
+      li.
+        {{ productDetail.product.productDisplayName_en }}
+.row
   .large-7.columns
     .productDetail
       h4.productDetail__heading {{ productDetail.product.productDisplayName_en }}

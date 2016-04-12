@@ -1,12 +1,44 @@
 header.header 
-  a.header__logo(href="#/")
-    span FDR
+  .header__logo
+    a.header__logoLink(href="#/")
+      span FDR
   nav.header__menu
-    a.header__menuItem(href="#/").
-      Products
-    a.header__menuItem(href="#/").
-      Music
-    a.header__menuItem(href="#/").
-      Play
-    a.header__menuItem(href="#/").
-      Connect
+    a(
+      class=[
+        "header__menuItem",
+        "show-for-large-only"
+      ]
+      href="#/"
+    )
+     | Products
+    a(
+      class=[
+        "header__menuItem",
+        "show-for-large-only"
+      ]
+      href="#/"
+    )
+      | Music
+    a(
+      class=[
+        "header__menuItem",
+        "show-for-large-only"
+      ]
+      href="#/"
+    )
+      | Play
+    a(
+      class=[
+        "header__menuItem",
+        "show-for-large-only"
+      ]
+      href="#/"
+    )
+      | Connect
+    button.header__menuIcon(
+      class=[
+        "menu-icon",
+        "hide-for-large"
+      ]
+      type="button"
+    ) 
