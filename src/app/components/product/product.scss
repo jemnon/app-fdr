@@ -21,7 +21,6 @@ $product-small-spacing: 6px;
   height: 250px;
   margin-bottom: $product-small-spacing;
   border: 1px solid #ccc;
-  background-color: rgba(#000, 0.3);
   @include breakpoint(large) {
     height: 150px;
   }
@@ -29,8 +28,8 @@ $product-small-spacing: 6px;
 
 .product__img {
   width: 100%;
-  &.hide {
-    display: none;
+  &.is-broken-image {
+    opacity: 0.5;
   }
 }
 
