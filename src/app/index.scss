@@ -30,6 +30,11 @@ $breadcrumbs-item-color: $primary-color;
 // bower:scss
 // endbower
 
+/**
+ * Scss naming convention and design patterns uses the 
+ * Block Element Modifier (BEM) methodology.
+ * For more information about BEM see: http://getbem.com/introduction/
+ */
 @import 'components/product/product';
 @import 'components/sideBar/sideBar';
 @import 'components/header/header';
