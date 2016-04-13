@@ -1,8 +1,12 @@
 # app-fdr
 
-## Installation
+URL: [https://app-fdr.herokuapp.com/#/](https://app-fdr.herokuapp.com/#/)
+```
+Login: foo
+Password: foobar
+```
 
-This guide assumes a fresh install.
+## Installation
 
 Node
 [https://nodejs.org/en/](Node)
